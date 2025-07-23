@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 load_dotenv()
-api_key = "AIzaSyCBVKCIP14gIJO43B2qRwtr381ZMPyB-yI"
+api_key = "GEMINI_API_KEY"
 
 if not api_key:
     raise Exception("GEMINI_API_KEY not found in .env")
